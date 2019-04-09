@@ -30,7 +30,8 @@ class MyAppState extends State<MyApp>{
       title: "Twitter Stats",
       theme: ThemeData(
         
-        primaryColor: Colors.deepPurple
+        primaryColor: Colors.lightBlue,
+        accentColor: Colors.white
       ),
       home: Scaffold(
         appBar: AppBar(
